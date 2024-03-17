@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "PowerShell": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "commandLineArgs": "-NoExit -NoLogo -Command \"Import-Module '$(TargetPath)'; New-PSDrive 's' 'Provider' 'http://example.com/';\""
+    }
+  }
+}
